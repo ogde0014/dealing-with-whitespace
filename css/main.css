@@ -6,12 +6,28 @@ html {
   box-sizing: inherit;
 }
 
-article {
+article h1 {
+  color: #222;
+}
+
+body {
   font-family: "Crimson Text";
   font-style: normal;
   font-weight: 400;
+  font-size: 1.125rem;
+  color: #222;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
 }
 
-header p {
+article header p {
   font-style: italic;
+  color: #555;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  color: #999;
 }
