@@ -1,33 +1,73 @@
 html {
   box-sizing: border-box;
+  border: 2px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 1.5rem 13rem;
 }
 
-*,*::before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
 article h1 {
   color: #222;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+article header {
+  line-height: .3;
+  margin-top: 2.2rem;
 }
 
 body {
   font-family: "Crimson Text";
   font-style: normal;
-  font-weight: 400;
-  font-size: 1.125rem;
+  font-weight: normal;
   color: #222;
-  border-bottom: 1px solid black;
+  margin: 0;
+  line-height: 1.3;
+  max-width: 19rem;
+  min-width: 19rem;
+  padding-left: 1rem;
+}
+
+h1 + p {
+  line-height: 0;
+}
+
+article {
+  border-bottom: 2px solid #999;
   padding-bottom: 5px;
 }
 
 article header p {
   font-style: italic;
-  color: #555;
-  border-bottom: 1px solid black;
-  padding-bottom: 5px;
+  font-size: 1em;
+  color: #222;
+  border-bottom: 2px solid #999;
+  padding-bottom: 30px;
+  margin-top: 0;
 }
 
 blockquote {
-  font-size: 1.5rem;
-  color: #999;
+  font-size: 1.125rem;
+  color: #555;
+  font-family: italic;
+}
+
+article p {
+  color: #222;
+  padding-top: 2px;
+}
+
+article ol {
+  text-align: left;
+  padding-left: 1rem;
+  color: #222;
+}
+
+.quote {
+  font-size: 1em;
 }
